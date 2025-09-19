@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: '/casa_B07-09_sales_website/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
